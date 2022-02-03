@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Blog</title>
-    <link rel="stylesheet" href="styleblog.css">
+    <link rel="stylesheet" href="css/styleblog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
@@ -13,59 +13,54 @@
 </head>
 <body>
   <div class = "container">
-    <div class="header box">
+    <header class="header box">
       <div id="head1" class="box">
         <h1>Welcome to my Garden<br><span class="head-highlight">Lets´s grow together</span></h1>
-          </div>
-          <div id="head2" class="box">
-          <form>
-            <input type="search" name="q" placeholder="Search on my Blog">
-            <input type="submit" value="Search!">
-          </form>
-          <a href="#">Contact</a>
-          <a href="#">Subscribe</a>
-          </div>
-    </div>
-    <div class="sidebar box">
+      </div>
+      <div id="head2" class="box">
+        <a href="#">Contact</a>
+        <a href="#">Subscribe</a>
+      </div>
+    </header>
+    <section class="sidebar box">
       <div id="side1" class="box">
-          <p><a href="#">Build your own <span>Grow-System</span></a></p>
-          <p><a href="#">Build your own <span>Water-System</span></a></p>
-          <p><a href="post.html">Most Recent Post</a></p>
-        </div>
-    </div>
-    <div id="contentbox">
+        <p><a href="#">Build your own <span><em>Grow-System</em></span></a></p>
+        <p><a href="#">Build your own <span><em>Water-System</em></span></a></p>
+        <p><a href="article.html">Most Recent Post</a></p>
+      </div>
+    </section>
+    <article id="contentbox">
       <div id="nestedGrid" class="box">
         <div id="contentHead"class="box" >
-          <h2>How to achieve supreme <span>yield and quality</span> for your bio Tomato´s<hr>
-          <span>23.01.2022 | Author: Ray Haubrich</span></h2>
+          <h2>How to achieve supreme <span><u>yield and quality </u></span>for your <em>bio Tomatos</em><hr></h2>
+          <h3><span>23.01.2022 | <em>Author: Ray Haubrich</em></span></h3>
         </div>
         <div id="contentImg"class="box" >
-          <img class="img1"src="20200808_170955.jpg">
+          <img class="img1"src="images/20200808_170955.jpg" alt="A Cherry-Tomato F-1 strain, grown from seed, on soil, no additional nutrients">
+          <imgcaption class="imgCaption">Cherry-Tomatos F-1, <b>Augsburg, Germany</b></imgcaption>
         </div>
         <div id="contentTxt"class="box" >
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, inventore! Alias repellat, praesentium veniam
              quidem voluptates omnis nihil harum fugiat at magnam hic. Numquam iste sit sapiente. 
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem est earum doloremque distinctio neque numquam 
              voluptas, iusto dolor repellat cumque, cum quod repellendus? Accusamus, assumenda. Recusandae nostrum nam 
-             officia blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit...<a href="/article/article.html">Read more</a>
+             officia blanditiis! Lorem ipsum dolor sit amet consectetur adipisicing elit...<a href="article.html">Read more</a>
           </p>
         </div>
       </div>
-    </div>
-    <div class="footer box">
+    </article>
+    <footer class="footer box">
       <div id="footer1" class="box">
-        <h1>Follow me :
+        <h1>Follow me:
           <a href="#" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-linkedin"></a>
           <a href="#" class="fa fa-youtube"></a>
           <a href="#" class="fa fa-instagram"></a>
         </h1>
       </div>
       <div id="footer2" class="box">
-        <h1><a href="/index.html">Home</a></h1>
+        <h1><a href="index.html">Home</a></h1>
       </div>
-    </div> 
+    </footer> 
   </div>
 </body>
 </html>
