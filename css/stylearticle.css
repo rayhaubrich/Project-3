@@ -9,7 +9,7 @@ a {
     margin-right: 16px;
     font-weight: 800;
 }
-p, li {
+p, li, figure {
     color: whitesmoke;
     font-weight: 600;
     font-size: 1.0em;

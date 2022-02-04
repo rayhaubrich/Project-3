@@ -60,8 +60,7 @@ a:hover{
 }
 #head2 {
     display: inline-block;
-    flex-shrink: 1;
-    background: grey; 
+    flex-shrink: 1; 
     padding: 16px;
     border-radius: 15px;
 }
@@ -85,11 +84,11 @@ a:hover{
     padding: 16px;
 }
 #contentbox{
-      grid-area: main;
-      justify-content: space-evenly;
-      align-items: center;
-      padding: 16px;
-      padding-right: 5px;
+  grid-area: main;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 16px;
+  padding-right: 5px;
 }
 .img1{
   width: 100%;
@@ -148,4 +147,16 @@ a:hover{
 }
 .fa:hover {
       opacity: 0.7;
+}
+.button {
+  background-color: gray;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
 }

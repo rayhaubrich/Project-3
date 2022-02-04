@@ -1,5 +1,5 @@
 @media(min-width:720px){
-    .container{
+    #container{
     display:grid;
     grid-template-columns: auto;
     grid-template-rows: auto;
